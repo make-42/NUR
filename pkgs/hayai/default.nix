@@ -33,10 +33,10 @@ buildGoModule rec {
   subPackages = ["."];
 
   src = fetchFromGitHub {
-    owner = "make-42";
-    repo = "hayai";
-    rev = "cb1a05a258f8a023138bfce970c0fb3173739f65";
-    hash = "sha256-zW1xse53FjBynpYSoj/w8+Yc66LPZB3EjHGVsjhRYJ4=";
+  owner = "make-42";
+  repo = "hayai";
+  rev = "3af1f651c07338405411b3794bc50decc9b8655d";
+  hash = "sha256-+LE9FFO3uMIGaD06xqhsbx5/Am11i6bV74RSvLUI2No=";
   };
 
   vendorHash = null;
