@@ -35,8 +35,8 @@ buildGoModule rec {
   src = fetchFromGitHub {
   owner = "make-42";
   repo = "hayai";
-  rev = "3af1f651c07338405411b3794bc50decc9b8655d";
-  hash = "sha256-+LE9FFO3uMIGaD06xqhsbx5/Am11i6bV74RSvLUI2No=";
+  rev = "d389e0fd3fae374eb3774a3dc2af004a28a439a9";
+  hash = "sha256-JVevSowEOIyVFY65ZF144aJlbtOLTu6O8+PT1h4DxT0=";
   };
 
   vendorHash = null;
