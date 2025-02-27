@@ -58,8 +58,8 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    homepage = "https://github.com/AssetRipper/AssetRipper";
-    description = "AssetRipper";
+    homepage = "https://sourceforge.net/projects/deniseemu";
+    description = "Denise Emulator (C64, Amiga)";
     platforms = platforms.linux;
   };
 }
