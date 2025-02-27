@@ -17,28 +17,6 @@ stdenv.mkDerivation rec {
 
   buildInputs = with pkgs; [
     cmake
-    freetype
-    pkg-config
-    libpulseaudio.dev
-    gtk3
-    libxkbcommon
-    libsysprof-capture
-    xorg.libXdmcp
-    xorg.libX11
-    xorg.libXfixes
-    xorg.libXext
-    xorg.xcbutil
-    xorg.libXtst
-    systemd.dev
-    openal
-    pcre2.dev
-    util-linux.dev
-    libselinux.dev
-    libsepol.dev
-    libthai.dev
-    libdatrie.dev
-    lerc.dev
-    libepoxy.dev
   ];
 
   nativeBuildInputs = with pkgs; [
