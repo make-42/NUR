@@ -11,13 +11,12 @@ stdenv.mkDerivation rec {
   src = fetchFromBitbucket {
     owner = "piciji";
     repo = "denise";
-    rev = "v${version}";
+    rev = "$v{version}";
     hash = "sha256-pwdNyhs1F4FF0ld07aSnvxzYg2mEDBubTNzD2P/YfGw=";
   };
 
   buildInputs = with pkgs; [
     cmake
-    stdenv
   ];
 
   nativeBuildInputs = with pkgs; [
@@ -32,7 +31,17 @@ stdenv.mkDerivation rec {
     xorg.libXfixes
     xorg.libXext
     xorg.xcbutil
+    xorg.libXtst
     systemd.dev
+    openal
+    pcre2.dev
+    util-linux.dev
+    libselinux.dev
+    libsepol.dev
+    libthai.dev
+    libdatrie.dev
+    lerc.dev
+    libepoxy.dev
   ];
 
   configurePhase = "
