@@ -44,9 +44,9 @@ stdenv.mkDerivation rec {
     libepoxy.dev
   ];
 
-  configurePhase = "
-    cmake -B builds/release -S . -DCMAKE_INSTALL_PREFIX=/bin
-    ";
+  configurePhase = ''
+    cmake -B builds/release -S . -DCMAKE_INSTALL_PREFIX=""
+  '';
 
   buildPhase = ''
     cmake --build builds/release -j$NIX_BUILD_CORES
