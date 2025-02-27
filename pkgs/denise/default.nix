@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
   ];
 
   configurePhase = "
-    cmake -B builds/release -S . -DCMAKE_INSTALL_PREFIX=/usr
+    cmake -B builds/release -S . -DCMAKE_INSTALL_PREFIX=/bin
     ";
 
   buildPhase = ''
