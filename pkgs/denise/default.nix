@@ -6,13 +6,13 @@
 }:
 stdenv.mkDerivation rec {
   pname = "denise";
-  version = "1.1.11";
+  version = "2.4";
 
   src = fetchFromBitbucket {
     owner = "piciji";
     repo = "denise";
-    rev = "d63c27b5c15f37ed930fbf2a0c87d3e4c66ec823";
-    hash = "sha256-am08RVwZB8RcnQ8YIHujDScd4RzxkKJKFky2Li99OoE=";
+    rev = "v${version}";
+    hash = "sha256-pwdNyhs1F4FF0ld07aSnvxzYg2mEDBubTNzD2P/YfGw=";
   };
 
   buildInputs = with pkgs; [
