@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   src = fetchFromBitbucket {
     owner = "piciji";
     repo = "denise";
-    rev = "$v{version}";
+    rev = "v${version}";
     hash = "sha256-pwdNyhs1F4FF0ld07aSnvxzYg2mEDBubTNzD2P/YfGw=";
   };
 
