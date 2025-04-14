@@ -33,8 +33,8 @@ rec {
   src = fetchFromGitHub {
     owner = "make-42";
     repo = "akai-ito";
-    rev = "72c45c8ed975230e5ef9c51e709f3d2c00003e18";
-    hash = "sha256-e8ABqtXpDm3FxNH32tsId0m+tH26wY7rOsDBrvvq2nM=";
+    rev = "88ba363df1129e4bb661c5bf66cf92a58d3572ce";
+    hash = "sha256-/sYzn5ODs2uP8ssdLDDyYYoah+7tHFBuHpJ+cpFIW3c=";
   };
 
   vendorHash = null;
