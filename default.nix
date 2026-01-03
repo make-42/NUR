@@ -30,7 +30,6 @@
 
   denise = pkgs.callPackage ./pkgs/denise {};
 
-  sdrtrunk = pkgs.callPackage ./pkgs/sdrtrunk {inherit gradle2nix;};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }

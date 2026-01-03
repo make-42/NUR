@@ -2,7 +2,6 @@
   description = "My personal NUR repository";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    gradle2nix.url = "github:tadfisher/gradle2nix/v2";
   };
   outputs = {
     self,
